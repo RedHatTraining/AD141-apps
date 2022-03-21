@@ -1,11 +1,11 @@
 """ A Solution For collections_ex06
 
-    Rewrite collections_ex02 but this time count the frequency of each
+    Rewrite collections_ex02 to count the frequency of each
     word in the user's input.
     • A dict provides the perfect data structure for this problem.
     • Let the words be the keys, and let the counts be the values.
     • Print the results sorted by the words.
-    • Then, print the results sorted by the counts.
+    • Finally, print the results sorted by the counts.
 """
 words = {}
 
