@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
-"""Outer function returns a nested function"""
-def outer(a, b):
+""" A Solution For functions_ex10
+    Re-write your solution to either Exercise 8 or 9 so that it uses a
+    lambda expression as the nested function.
+"""
 
-    return lambda : a+b  # a reference to inner function
+
+def deliver():
+    return lambda x, y: x + y
 
 
-result = outer(5, 10)
-print(type(result))
-print("Function returns:",result())  # invoke the returned function
+f = deliver()
+print(f(3, 4))
+print(f(10, 20))

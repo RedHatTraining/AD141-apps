@@ -1,13 +1,22 @@
 #!/usr/bin/env python3
-"""Outer function returns a nested function that takes paramenters"""
-def outer():
+""" A Solution For functions_ex09
+    Write a function that returns a nested function.
+    • When the nested function is executed it should return the sum of two
+      integers.
+    • The two parameters should be passed to the outer function and used by
+      the inner function.
 
-    def inner(a, b):
+    Re-write the above solution such that the outer function
+    receives no parameters, and the nested function is defined as taking
+    the two parameters.
+"""
+
+
+def deliver(a, b):
+    def addthem():
         return a + b
+    return addthem
 
-    return inner  # a reference to inner function
 
-
-result = outer()
-print(type(result))
-print("Function returns:",result(10, 5))  # invoke the returned function
+f = deliver(10, 20)
+print(f())

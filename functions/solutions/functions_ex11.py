@@ -1,12 +1,18 @@
 #!/usr/bin/env python3
-"""Functiion to return a list with elements common to both lists"""
-def find_common(list_a, list_b):
-    setA = set(list_a)
-    setB = set(list_b)
-    return list(setA & setB)
+""" A Solution For functions_ex11
+    Write and test a function that takes two lists as parameters
+    and returns a list of the elements that are common to both.
+"""
 
-first = "A B c d e F G H".split()
-second ="d e H B I J K L".split()
-result = find_common(first, second)
-print(type(result))
-print("Function returns:",result)
+
+def common(c1, c2):
+    s1 = set(c1)
+    s2 = set(c2)
+    s3 = s1 & s2
+    return list(s3)
+
+
+a = [10, 40, 30, 20, 5]
+b = [80, 70, 60, 50, 40, 30]
+c = common(a, b)
+print(c)

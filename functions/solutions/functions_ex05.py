@@ -1,37 +1,60 @@
 #!/usr/bin/env python3
-"""Calculator application"""
-def Add():
-    val1 = input("Enter the first value to add: ")
-    val2 = input("Enter the second value to add: ")
-    print(val1," + ",val2,":",float(val1)+float(val2))
+""" A Solution For functions_ex05
+    Write a calculator application that presents the following menu:
+        Calculator options:
+        1. Add
+        2. Subtract
+        3. Multiply
+        4. Divide
+        5. Quit
+    • The user is expected to enter a number from the above menu.
+    • After choosing the operation, the user should be prompted twice for
+      2 numbers and the chosen operation performed on them with the result
+      being displayed on the screen.
+    • Each of the above options should be implemented as its own function.
+"""
 
-def Subtract():
-    val1 = input("Enter the first value: ")
-    val2 = input("Enter the value to subtract: ")
-    print(val1," - ",val2,":",float(val1)-float(val2))
 
-def Multiply():
-    val1 = input("Enter the first value: ")
-    val2 = input("Enter the value to multiply by: ")
-    print(val1," * ",val2,":",float(val1)*float(val2))
+def get_values():
+    x = int(input("Enter the first number: "))
+    y = int(input("Enter the second number: "))
+    return (x, y)
 
-def Divide():
-    val1 = input("Enter the first value: ")
-    val2 = input("Enter a non-zero value to divide by: ")
-    print(val1," / ",val2,":",float(val1)/float(val2))
 
-def illegal():
-    print("Illegal Selection\n")
+def add():
+    x, y = get_values()
+    print(f"{x}+{y}={x+y}\n")
 
-def Quit():
+
+def subtract():
+    x, y = get_values()
+    print(f"{x}-{y}={x-y}\n")
+
+
+def multiply():
+    x, y = get_values()
+    print(f"{x}*{y}={x*y}\n")
+
+
+def divide():
+    x, y = get_values()
+    print(f"{x}/{y}={x/y:.2f}\n")
+
+
+def quit():
+    print("Exiting...")
     exit()
 
-menu = {"1": Add, "2": Subtract, "3": Multiply, "4": Divide, "5": Quit}
-keys = sorted(menu.keys())
-while True:
-    print("Calulator Options:")
-    for key in keys:
-        print("\t", key, menu[key].__name__)
-    key = input(">")
 
-    menu.get(key, illegal)()
+def not_an_option():
+    print("This calculator can't do that...\n")
+
+
+calc = {"1": add, "2": subtract, "3": multiply, "4": divide, "5": quit}
+while True:
+    print("Calculator Options:")
+    for key in calc:
+        print(f"{key}. {calc[key].__name__.capitalize()}")
+    choice = input("Choose an action: ")
+
+    calc.get(choice, not_an_option)()

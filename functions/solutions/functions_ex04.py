@@ -1,24 +1,23 @@
 #!/usr/bin/env python3
-"""Return the sum and average of numbers in a variable length argument"""
-def sum_avg_varargs(*the_list):
-    sum = 0
-    count = 0
-    for item in the_list:
-        sum += item
-        count += 1
+""" A Solution For functions_ex04
+    There is a built-in function in Python called sum that will return the
+    sum of all of the numbers of an iterable object.
+    • Write a similar function, but instead of taking a collection as a
+      parameter, the function should take a variable number of arguments
+      and return the sum of them.
 
-    return (sum, sum/count)
+    Rewrite the above function  to return a tuple instead of a sum.
+    • The tuple should be the sum and the average of all of the
+      arguments passed to the function.
+"""
 
-test1 = "1 2 3 4 5 6 7 8 9 10"
-test_list = map(int, test1.split())
-test2 = [5, 6, 7, 8]
-test3 = (9, 10, 11, 12)
-test4 = {10, 20, 30,40, 50, 60}
-test5 = {"one":1, "two":2, "three":3}
-fmt = "The sum and average of {} ==> {}"
-print(fmt.format(test1, sum_avg_varargs(*test_list)))
-print(fmt.format(test2, sum_avg_varargs(*test2)))
-print(fmt.format(test3, sum_avg_varargs(*test3)))
-print(fmt.format(test4, sum_avg_varargs(*test4)))
-print(fmt.format(test5, sum_avg_varargs(*test5.values())))
-print(fmt.format("5,6,7", sum_avg_varargs(5, 6,7)))
+
+def get_sum_avg(*args):
+    total = sum(args)
+    return(total, total/len(args))
+
+
+total, avg = get_sum_avg(9, 8, 7)
+print(f"sum of 9, 8, 7 is {total}, average is {avg}")
+avg, total = get_sum_avg(17, 10, 3, 5, 1, 6)
+print(f"sum of 17, 10, 3, 5, 1, 6 is {total}, average is {avg}")

@@ -1,11 +1,17 @@
 #!/usr/bin/env python3
-"""Update dictionary values"""
-def update_dictionary(value, the_dict):
+""" A Solution For functions_ex12
+    Write and test a function that takes a number and a dictionary
+    and adds the number to all values in the dictionary.
+    • You can assume that all the values in the dictionary are numbers.
+"""
 
-    for key in the_dict.keys():
-        the_dict[key] += value
 
-test = {"A":1, "B":2, "C":3}
-print("before: ", test)
-update_dictionary(10, test)
-print("after: ", test)
+def addn(theMap, number):
+    for i in theMap.keys():
+        theMap[i] = theMap[i] + number
+
+
+h = {'a': 10, 'b': 20, 'c': 30}
+print(h)
+addn(h, 10)
+print(h)
