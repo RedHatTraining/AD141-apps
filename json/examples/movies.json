@@ -1,0 +1,33 @@
+{
+  "movies": [
+    {
+      "title": "The Nightmare Before Christmas",
+      "rating": "PG",
+      "freshness": 95,
+      "liked_it": 0.91,
+      "cast": {
+        "Chris Sarandon": "Jack Skellington",
+        "Catherine O'Hara": "Sally",
+        "William Hickey": "Evil Scientist",
+        "Ken Page": "Oogie Boogie"
+      }
+    },
+    {
+      "title": "The Philadelphia Story",
+      "rating": null,
+      "freshness": 100,
+      "liked_it": 0.93,
+      "cast": {
+        "Carey Grant": "C. K. Dexter Haven",
+        "Katharine Hepburn": "Tracy Lord",
+        "James Stewart": "Macaulay Connor"
+      }
+    },
+    {
+      "title": "The Lego Movie",
+      "rating": "PG",
+      "freshness": 95,
+      "liked_it": 0.87
+    }
+  ]
+}
