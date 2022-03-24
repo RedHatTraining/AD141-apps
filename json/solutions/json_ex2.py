@@ -16,7 +16,7 @@ def main():
     word_frequency = {}
     max_count = 0
     max_word = ""
-    with open("ch1_cyclone", "r") as data:
+    with open("cyclone", "r") as data:
         for line in data:
             for word in line.split():
                 count = word_frequency.get(word, 0) + 1
