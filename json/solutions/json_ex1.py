@@ -27,7 +27,7 @@ def main():
             print("Goodbye")
             break
 
-        book = books[book_to_find]
+        book = books.get(book_to_find)
         if book:
             print_data(book_to_find, book)
         else:
