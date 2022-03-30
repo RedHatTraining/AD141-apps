@@ -1,0 +1,738 @@
+{
+  "Things Fall Apart":
+    {
+      "author": "Chinua Achebe",
+      "country": "Nigeria",
+      "language": "English",
+      "pages": 209,
+      "year": 1958
+    },
+  "Fairy tales":
+    {
+      "author": "Hans Christian Andersen",
+      "country": "Denmark",
+      "language": "Danish",
+      "pages": 784,
+      "year": 1836
+    },
+  "Divine Comedy":
+    {
+      "author": "Dante Alighieri",
+      "country": "Italy",
+      "language": "Italian",
+      "pages": 928,
+      "year": 1315
+    },
+  "The Epic Of Gilgamesh":
+    {
+      "author": "Unknown",
+      "country": "Sumer and Akkadian Empire",
+      "language": "Akkadian",
+      "pages": 160,
+      "year": -1700
+    },
+  "The Book Of Job":
+    {
+      "author": "Unknown",
+      "country": "Achaemenid Empire",
+      "language": "Hebrew",
+      "pages": 176,
+      "year": -600
+    },
+  "One Thousand and One Nights":
+    {
+      "author": "Unknown",
+      "country": "India/Iran/Iraq/Egypt/Tajikistan",
+      "language": "Arabic",
+      "pages": 288,
+      "year": 1200
+    },
+  "Pride and Prejudice":
+    {
+      "author": "Jane Austen",
+      "country": "United Kingdom",
+      "language": "English",
+      "pages": 226,
+      "year": 1813
+    },
+  "Molloy, Malone Dies, The Unnamable, the trilogy":
+    {
+      "author": "Samuel Beckett",
+      "country": "Republic of Ireland",
+      "language": "French, English",
+      "pages": 256,
+      "year": 1952
+    },
+  "The Decameron":
+    {
+      "author": "Giovanni Boccaccio",
+      "country": "Italy",
+      "language": "Italian",
+      "pages": 1024,
+      "year": 1351
+    },
+  "Ficciones":
+    {
+      "author": "Jorge Luis Borges",
+      "country": "Argentina",
+      "language": "Spanish",
+      "pages": 224,
+      "year": 1965
+    },
+  "Wuthering Heights":
+    {
+      "author": "Emily Brontë",
+      "country": "United Kingdom",
+      "language": "English",
+      "pages": 342,
+      "year": 1847
+    },
+  "The Stranger":
+    {
+      "author": "Albert Camus",
+      "country": "Algeria, French Empire",
+      "language": "French",
+      "pages": 185,
+      "year": 1942
+    },
+  "Poems":
+    {
+      "author": "Paul Celan",
+      "country": "Romania, France",
+      "language": "German",
+      "pages": 320,
+      "year": 1952
+    },
+  "Journey to the End of the Night":
+    {
+      "author": "Louis-Ferdinand Céline",
+      "country": "France",
+      "language": "French",
+      "pages": 505,
+      "year": 1932
+    },
+  "Don Quijote De La Mancha":
+    {
+      "author": "Miguel de Cervantes",
+      "country": "Spain",
+      "language": "Spanish",
+      "pages": 1056,
+      "year": 1610
+    },
+  "The Canterbury Tales":
+    {
+      "author": "Geoffrey Chaucer",
+      "country": "England",
+      "language": "English",
+      "pages": 544,
+      "year": 1450
+    },
+  "Nostromo":
+    {
+      "author": "Joseph Conrad",
+      "country": "United Kingdom",
+      "language": "English",
+      "pages": 320,
+      "year": 1904
+    },
+  "Great Expectations":
+    {
+      "author": "Charles Dickens",
+      "country": "United Kingdom",
+      "language": "English",
+      "pages": 194,
+      "year": 1861
+    },
+  "Jacques the Fatalist":
+    {
+      "author": "Denis Diderot",
+      "country": "France",
+      "language": "French",
+      "pages": 596,
+      "year": 1796
+    },
+  "Berlin Alexanderplatz":
+    {
+      "author": "Alfred D\u00f6blin",
+      "country": "Germany",
+      "language": "German",
+      "pages": 600,
+      "year": 1929
+    },
+  "Crime and Punishment":
+    {
+      "author": "Fyodor Dostoevsky",
+      "country": "Russia",
+      "language": "Russian",
+      "pages": 551,
+      "year": 1866
+    },
+  "The Idiot":
+    {
+      "author": "Fyodor Dostoevsky",
+      "country": "Russia",
+      "language": "Russian",
+      "pages": 656,
+      "year": 1869
+    },
+  "The Possessed":
+    {
+      "author": "Fyodor Dostoevsky",
+      "country": "Russia",
+      "language": "Russian",
+      "pages": 768,
+      "year": 1872
+    },
+  "The Brothers Karamazov":
+    {
+      "author": "Fyodor Dostoevsky",
+      "country": "Russia",
+      "language": "Russian",
+      "pages": 824,
+      "year": 1880
+    },
+  "Middlemarch":
+    {
+      "author": "George Eliot",
+      "country": "United Kingdom",
+      "language": "English",
+      "pages": 800,
+      "year": 1871
+    },
+  "Invisible Man":
+    {
+      "author": "Ralph Ellison",
+      "country": "United States",
+      "language": "English",
+      "pages": 581,
+      "year": 1952
+    },
+  "Medea":
+    {
+      "author": "Euripides",
+      "country": "Greece",
+      "language": "Greek",
+      "pages": 104,
+      "year": -431
+    },
+  "Absalom, Absalom!":
+    {
+      "author": "William Faulkner",
+      "country": "United States",
+      "language": "English",
+      "pages": 313,
+      "year": 1936
+    },
+  "The Sound and the Fury":
+    {
+      "author": "William Faulkner",
+      "country": "United States",
+      "language": "English",
+      "pages": 326,
+      "year": 1929
+    },
+  "Madame Bovary":
+    {
+      "author": "Gustave Flaubert",
+      "country": "France",
+      "language": "French",
+      "pages": 528,
+      "year": 1857
+    },
+  "Sentimental Education":
+    {
+      "author": "Gustave Flaubert",
+      "country": "France",
+      "language": "French",
+      "pages": 606,
+      "year": 1869
+    },
+  "Gypsy Ballads":
+    {
+      "author": "Federico Garc\u00eda Lorca",
+      "country": "Spain",
+      "language": "Spanish",
+      "pages": 218,
+      "year": 1928
+    },
+  "One Hundred Years of Solitude":
+    {
+      "author": "Gabriel Garc\u00eda M\u00e1rquez",
+      "country": "Colombia",
+      "language": "Spanish",
+      "pages": 417,
+      "year": 1967
+    },
+  "Love in the Time of Cholera":
+    {
+      "author": "Gabriel Garc\u00eda M\u00e1rquez",
+      "country": "Colombia",
+      "language": "Spanish",
+      "pages": 368,
+      "year": 1985
+    },
+  "Faust":
+    {
+      "author": "Johann Wolfgang von Goethe",
+      "country": "Saxe-Weimar",
+      "language": "German",
+      "pages": 158,
+      "year": 1832
+    },
+  "Dead Souls":
+    {
+      "author": "Nikolai Gogol",
+      "country": "Russia",
+      "language": "Russian",
+      "pages": 432,
+      "year": 1842
+    },
+  "The Tin Drum":
+    {
+      "author": "G\u00fcnter Grass",
+      "country": "Germany",
+      "language": "German",
+      "pages": 600,
+      "year": 1959
+    },
+  "The Devil to Pay in the Backlands":
+    {
+      "author": "Jo\u00e3o Guimar\u00e3es Rosa",
+      "country": "Brazil",
+      "language": "Portuguese",
+      "pages": 494,
+      "year": 1956
+    },
+  "Hunger":
+    {
+      "author": "Knut Hamsun",
+      "country": "Norway",
+      "language": "Norwegian",
+      "pages": 176,
+      "year": 1890
+    },
+  "The Old Man and the Sea":
+    {
+      "author": "Ernest Hemingway",
+      "country": "United States",
+      "language": "English",
+      "pages": 128,
+      "year": 1952
+    },
+  "Iliad":
+    {
+      "author": "Homer",
+      "country": "Greece",
+      "language": "Greek",
+      "pages": 608,
+      "year": -735
+    },
+  "Odyssey":
+    {
+      "author": "Homer",
+      "country": "Greece",
+      "language": "Greek",
+      "pages": 374,
+      "year": -800
+    },
+  "A Doll's House":
+    {
+      "author": "Henrik Ibsen",
+      "country": "Norway",
+      "language": "Norwegian",
+      "pages": 68,
+      "year": 1879
+    },
+  "Ulysses":
+    {
+      "author": "James Joyce",
+      "country": "Irish Free State",
+      "language": "English",
+      "pages": 228,
+      "year": 1922
+    },
+  "The Trial":
+    {
+      "author": "Franz Kafka",
+      "country": "Czechoslovakia",
+      "language": "German",
+      "pages": 160,
+      "year": 1925
+    },
+  "The Castle":
+    {
+      "author": "Franz Kafka",
+      "country": "Czechoslovakia",
+      "language": "German",
+      "pages": 352,
+      "year": 1926
+    },
+  "The recognition of Shakuntala":
+    {
+      "author": "K\u0101lid\u0101sa",
+      "country": "India",
+      "language": "Sanskrit",
+      "pages": 147,
+      "year": 150
+    },
+  "The Sound of the Mountain":
+    {
+      "author": "Yasunari Kawabata",
+      "country": "Japan",
+      "language": "Japanese",
+      "pages": 288,
+      "year": 1954
+    },
+  "Zorba the Greek":
+    {
+      "author": "Nikos Kazantzakis",
+      "country": "Greece",
+      "language": "Greek",
+      "pages": 368,
+      "year": 1946
+    },
+  "Sons and Lovers":
+    {
+      "author": "D. H. Lawrence",
+      "country": "United Kingdom",
+      "language": "English",
+      "pages": 432,
+      "year": 1913
+    },
+  "Independent People":
+    {
+      "author": "Halld\u00f3r Laxness",
+      "country": "Iceland",
+      "language": "Icelandic",
+      "pages": 470,
+      "year": 1934
+    },
+  "The Golden Notebook":
+    {
+      "author": "Doris Lessing",
+      "country": "United Kingdom",
+      "language": "English",
+      "pages": 688,
+      "year": 1962
+    },
+  "Pippi Longstocking":
+    {
+      "author": "Astrid Lindgren",
+      "country": "Sweden",
+      "language": "Swedish",
+      "pages": 160,
+      "year": 1945
+    },
+  "Diary of a Madman":
+    {
+      "author": "Lu Xun",
+      "country": "China",
+      "language": "Chinese",
+      "pages": 389,
+      "year": 1918
+    },
+  "Children of Gebelawi":
+    {
+      "author": "Naguib Mahfouz",
+      "country": "Egypt",
+      "language": "Arabic",
+      "pages": 355,
+      "year": 1959
+    },
+  "Buddenbrooks":
+    {
+      "author": "Thomas Mann",
+      "country": "Germany",
+      "language": "German",
+      "pages": 736,
+      "year": 1901
+    },
+  "The Magic Mountain":
+    {
+      "author": "Thomas Mann",
+      "country": "Germany",
+      "language": "German",
+      "pages": 720,
+      "year": 1924
+    },
+  "Moby Dick":
+    {
+      "author": "Herman Melville",
+      "country": "United States",
+      "language": "English",
+      "pages": 378,
+      "year": 1851
+    },
+  "History":
+    {
+      "author": "Elsa Morante",
+      "country": "Italy",
+      "language": "Italian",
+      "pages": 600,
+      "year": 1974
+    },
+  "Beloved":
+    {
+      "author": "Toni Morrison",
+      "country": "United States",
+      "language": "English",
+      "pages": 321,
+      "year": 1987
+    },
+  "The Tale of Genji":
+    {
+      "author": "Murasaki Shikibu",
+      "country": "Japan",
+      "language": "Japanese",
+      "pages": 1360,
+      "year": 1006
+    },
+  "The Man Without Qualities":
+    {
+      "author": "Robert Musil",
+      "country": "Austria",
+      "language": "German",
+      "pages": 365,
+      "year": 1931
+    },
+  "Lolita":
+    {
+      "author": "Vladimir Nabokov",
+      "country": "Russia/United States",
+      "language": "English",
+      "pages": 317,
+      "year": 1955
+    },
+  "Nineteen Eighty-Four":
+    {
+      "author": "George Orwell",
+      "country": "United Kingdom",
+      "language": "English",
+      "pages": 272,
+      "year": 1949
+    },
+  "Metamorphoses":
+    {
+      "author": "Ovid",
+      "country": "Roman Empire",
+      "language": "Classical Latin",
+      "pages": 576,
+      "year": 100
+    },
+  "The Book of Disquiet":
+    {
+      "author": "Fernando Pessoa",
+      "country": "Portugal",
+      "language": "Portuguese",
+      "pages": 272,
+      "year": 1928
+    },
+  "In Search of Lost Time":
+    {
+      "author": "Marcel Proust",
+      "country": "France",
+      "language": "French",
+      "pages": 2408,
+      "year": 1920
+    },
+  "Gargantua and Pantagruel":
+    {
+      "author": "Fran\u00e7ois Rabelais",
+      "country": "France",
+      "language": "French",
+      "pages": 623,
+      "year": 1533
+    },
+  "The Masnavi":
+    {
+      "author": "Rumi",
+      "country": "Sultanate of Rum",
+      "language": "Persian",
+      "pages": 438,
+      "year": 1236
+    },
+  "Midnight's Children":
+    {
+      "author": "Salman Rushdie",
+      "country": "United Kingdom, India",
+      "language": "English",
+      "pages": 536,
+      "year": 1981
+    },
+  "Bostan":
+    {
+      "author": "Saadi",
+      "country": "Persia, Persian Empire",
+      "language": "Persian",
+      "pages": 298,
+      "year": 1257
+    },
+  "Season of Migration to the North":
+    {
+      "author": "Tayeb Salih",
+      "country": "Sudan",
+      "language": "Arabic",
+      "pages": 139,
+      "year": 1966
+    },
+  "Blindness":
+    {
+      "author": "Jos\u00e9 Saramago",
+      "country": "Portugal",
+      "language": "Portuguese",
+      "pages": 352,
+      "year": 1995
+    },
+  "Hamlet":
+    {
+      "author": "William Shakespeare",
+      "country": "England",
+      "language": "English",
+      "pages": 432,
+      "year": 1603
+    },
+  "King Lear":
+    {
+      "author": "William Shakespeare",
+      "country": "England",
+      "language": "English",
+      "pages": 384,
+      "year": 1608
+    },
+  "Othello":
+    {
+      "author": "William Shakespeare",
+      "country": "England",
+      "language": "English",
+      "pages": 314,
+      "year": 1609
+    },
+  "Oedipus the King":
+    {
+      "author": "Sophocles",
+      "country": "Greece",
+      "language": "Greek",
+      "pages": 88,
+      "year": -430
+    },
+  "The Red and the Black":
+    {
+      "author": "Stendhal",
+      "country": "France",
+      "language": "French",
+      "pages": 576,
+      "year": 1830
+    },
+  "The Life And Opinions of Tristram Shandy":
+    {
+      "author": "Laurence Sterne",
+      "country": "England",
+      "language": "English",
+      "pages": 640,
+      "year": 1760
+    },
+  "Confessions of Zeno":
+    {
+      "author": "Italo Svevo",
+      "country": "Italy",
+      "language": "Italian",
+      "pages": 412,
+      "year": 1923
+    },
+  "Gulliver's Travels":
+    {
+      "author": "Jonathan Swift",
+      "country": "Ireland",
+      "language": "English",
+      "pages": 178,
+      "year": 1726
+    },
+  "War and Peace":
+    {
+      "author": "Leo Tolstoy",
+      "country": "Russia",
+      "language": "Russian",
+      "pages": 1296,
+      "year": 1867
+    },
+  "Anna Karenina":
+    {
+      "author": "Leo Tolstoy",
+      "country": "Russia",
+      "language": "Russian",
+      "pages": 864,
+      "year": 1877
+    },
+  "The Death of Ivan Ilyich":
+    {
+      "author": "Leo Tolstoy",
+      "country": "Russia",
+      "language": "Russian",
+      "pages": 92,
+      "year": 1886
+    },
+  "The Adventures of Huckleberry Finn":
+    {
+      "author": "Mark Twain",
+      "country": "United States",
+      "language": "English",
+      "pages": 224,
+      "year": 1884
+    },
+  "Ramayana":
+    {
+      "author": "Valmiki",
+      "country": "India",
+      "language": "Sanskrit",
+      "pages": 152,
+      "year": -450
+    },
+  "The Aeneid":
+    {
+      "author": "Virgil",
+      "country": "Roman Empire",
+      "language": "Classical Latin",
+      "pages": 442,
+      "year": -23
+    },
+  "Mahabharata":
+    {
+      "author": "Vyasa",
+      "country": "India",
+      "language": "Sanskrit",
+      "pages": 276,
+      "year": -700
+    },
+  "Leaves of Grass":
+    {
+      "author": "Walt Whitman",
+      "country": "United States",
+      "language": "English",
+      "pages": 152,
+      "year": 1855
+    },
+  "Mrs Dalloway":
+    {
+      "author": "Virginia Woolf",
+      "country": "United Kingdom",
+      "language": "English",
+      "pages": 216,
+      "year": 1925
+    },
+   "To the Lighthouse":
+    {
+      "author": "Virginia Woolf",
+      "country": "United Kingdom",
+      "language": "English",
+      "pages": 209,
+      "year": 1927
+    },
+  "Memoirs of Hadrian":
+    {
+      "author": "Marguerite Yourcenar",
+      "country": "France/Belgium",
+      "language": "French",
+      "pages": 408,
+      "year": 1951
+    }
+}
