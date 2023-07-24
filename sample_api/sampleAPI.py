@@ -26,7 +26,7 @@ class Numbers(Resource):
         
         data = pd.read_csv('numbers.csv')
         number = args['number']
-        number_data = data.query("number==@number")
+        number_data = data.query('number==@number')
         number_data = number_data.reset_index(drop=True)
         if number_data.shape[0] > 0 :
             idx = randint(0, number_data.shape[0] - 1)
