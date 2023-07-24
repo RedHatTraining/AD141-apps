@@ -13,6 +13,7 @@ class ToDoList(Resource):
     def get(self):
         data = pd.read_csv('todolist.csv')
         data = data.to_dict(orient='records')
+
         return {'data': data}, 200
 
 
