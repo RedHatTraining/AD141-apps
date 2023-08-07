@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """ A Solution For classes_ex03
     Implement the necessary special methods so that the <, ==, and >
     operators can be used with Family objects.
