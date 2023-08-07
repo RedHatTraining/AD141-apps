@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """ A Solution For classes_ex04
     Implement the following class hierarchy.
     • Define a Worker class with a name, a salary, and number of years worked.

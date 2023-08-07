@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """ A Solution For classes_ex02
     Create a class called Family.
     • The Family does not extend Person but rather should be composed
