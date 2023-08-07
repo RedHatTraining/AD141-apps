@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """ A Solution For collections_ex06
 
     Rewrite collections_ex02 to count the frequency of each
