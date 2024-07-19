@@ -15,7 +15,7 @@ from random import randint
 
 
 def main():
-    url = f"http://localhost:5000/numbers?number={randint(1, 10)}&json&notfound=floor"
+    url = f"http://localhost:5000/numbers?number={randint(1, 10)}"
     print(f"sending request {url} ...")
     response = requests.get(url)
     if response.status_code == 200:
