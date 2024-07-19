@@ -15,12 +15,12 @@ from random import randint
 
 
 def main():
-    url = f"http://numbersapi.com/{randint(1, 101)}/?json&notfound=floor"
+    url = f"http://localhost:5000/numbers?number={randint(1, 10)}&json&notfound=floor"
     print(f"sending request {url} ...")
     response = requests.get(url)
     if response.status_code == 200:
         data = json.loads(response.content.decode())
-        print(data["text"])
+        print(data["data"])
     else:
         print("response status:", response.status_code)
 
