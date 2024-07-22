@@ -34,11 +34,11 @@ def write_data(file_name, data):
 
 
 def main():
-    url = "https://jsonplaceholder.typicode.com/todos"
+    url = "http://localhost:5000/todolist"
     response = requests.get(url)
     if response.status_code == 200:
         data = json.loads(response.content.decode())
-        done, todo = separate_tasks(data)
+        done, todo = separate_tasks(data["data"])
         write_data("tasks_done.json", done)
         write_data("tasks_todo.json", todo)
     else:
